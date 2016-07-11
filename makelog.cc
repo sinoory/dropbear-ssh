@@ -29,3 +29,11 @@ http://www.2cto.com/os/201303/193960.html
  2089  history |tail 30
  2090  history |tail -n 30
  2091  history |tail -n 30 > ../makelog.cc
+
+
+
+ login without auth,see 
+ http://blog.chinaunix.net/uid-23504396-id-373171.html
+# add root user in /etc/passwd
+ pub:pub:0:0:root:/root:/bin/sh
+ pb:pb:0:0:root:/pb:/bin/sh
